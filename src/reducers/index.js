@@ -1,6 +1,10 @@
 import { combineReducers } from 'redux';
-import placeholder from './placeholder';
+import characterInput from './characterInput';
+import characterResult from './characterResult';
+import categoryInput from './categoryInput'
 
 export default combineReducers({
-  placeholder
+  characterInput,
+  characterResult,
+  categoryInput
 });
